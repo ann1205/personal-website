@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <link href="https://fonts.googleapis.com/css?family=Cookie" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+    <link rel="manifest" href="img/manifest.json">
+    <link rel="mask-icon" href="img/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="theme-color" content="#ffffff">
+    <title>Personal Website</title>
+</head>
+
+<body>
+    <nav class="butons">
+        <button class="Tab 1" data-tab="1" active> Home</button>
+        <button class="Tab 2" data-tab="2">About me</button>
+        <button class="Tab 3" data-tab="3">Links</button>
+        <button class="Tab 4" data-tab="4">Contact me</button>
+    </nav>
+    <table>
+        <tr>
+            <td><img src="img/me1.jpg" alt="Hanna Kurdzel-1" class="top-image"></td>
+            <td><img src="img/me2.jpg" alt="Hanna Kurdzel-2" class="top-image"></td>
+        </tr>
+    </table>
+    <div class="tabs" data-tab="1">
+        <h1>Hanna Kurdzel</h1>
+        <span>Sales manager of building materials</span>
+        <p>Hi guys. My name is Hanna. I'm 24 years old. From my childhood I have been liked mathematics and exact sciences.</p>
+
+        <p>That's why in 2010 I started to study in National Forestry University the faculty of Economics . My Specialty is Accounting and Audit. But while studying at the 5th course, I decided to find a job in a specialty in order to acquire practical skills.
+            And I found her, because who seeks shall find. This jobs is computer operator.</p>
+        <p>My first work experience lasted one and a half years and during this time I worked in three different positions. When I realized that I ceased to develop and the work became boring, I decided to change the place of work. These changes occurred
+            in June 2016.</p>
+        <p>Since then, I have been working as a sales manager building materials. But now I think about changes in my life again and I want to try myself in IT.
+        </p>
+        <br>
+        <div>
+            <table>
+                <tr>
+                    <td><img src="img/math.jpg" alt="mathematics" class="images-chapter-home"></td>
+                    <td><img src="img/univer.jpg" alt="books and scroll" class="images-chapter-home"></td>
+                    <td><img src="img/jobs.jpg" alt="find jobs" class="images-chapter-home"></td>
+                    <td><img src="img/java.jpg" alt="java script" class="images-chapter-home"></td>
+                    <td><img src="img/softserve.png" alt="soft serve" class="images-chapter-home"></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div class="tabs" data-tab="2">
+        <h2>A few words about me</h2>
+        <p>Understanding to become an IT employee my knowledge is not enough and I need to start learning. First I decided to go to English language courses. After repeating the material he studied at school and university, he wanted to teach programming
+            in parallel with English. That's why I'm here with you.</p>
+        <p>Although the training takes me 5 evenings a week out of 7 possible, I like spending my free time with my husband, family and friends in my spare time from work, study, homework and sleep.</p>
+        <p>And also I like playing with our dog Jessica and cooking new dishes and sweets.</p>
+        <p>Another weakness is traveling, but due to lack of time, I have no opportunity at present.</p>
+        <div>
+            <table>
+                <tr>
+                    <td><img src="img/we.jpg" alt="Oleh and Hanna Kurdzel" class="images-chapter-about-me"></td>
+                    <td><img src="img/jessy.jpg" alt="Puppy Jessy" class="images-chapter-about-me"></td>
+                    <td><img src="img/cake1.jpg" alt="Cake 1" class="images-chapter-about-me"></td>
+                    <td><img src="img/cake2.jpg" alt="Cake 2" class="images-chapter-about-me"></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div class="tabs" data-tab="3">
+        <h2>Links</h2>
+        <p>
+            <b>If my site is interesting to you add me in a friend</b>
+            <img src="img/fb.png" alt="Facebook" id="image-chapter-links">
+            <a href="https://www.facebook.com/anna.nychyporchuk">Facebook</a>
+        </p>
+        <p>
+            If you need building materials, then you can find us on the Internet <a href="https://akvilon.ua">here</a> or here or personally to visit us at <a href="https://www.google.com.ua/maps/place/вулиця+Городоцька,+367,+Львів,+Львівська+область/@49.8198973,23.9159653,16z/data=!4m5!3m4!1s0x473ae0cc671ceb95:0x8b2a3ef96a3bf94b!8m2!3d49.8200566!4d23.9172865">Lviv, st.   Horodotsʹka, 367</a>
+            <img src="img/map.png" alt="Map" id="image-map">
+        </p>
+    </div>
+    <div class="tabs" data-tab="4">
+        <article>
+            <h3>You can write me right now</h3>
+            <form id="contact-form">
+                <label>Your name
+               <input type="text" id="name" required>
+            <br>
+            </label>
+                <label>Your email
+            <input type="email" id="email" required>
+            <br>
+            </label>
+                <label>Your questions or wishes
+            <br>
+             <textarea id="feedback"></textarea>
+            </label>
+                <br>
+                <input type="submit" value="SEND">
+                <input type="reset" value="RESET">
+            </form>
+        </article>
+    </div>
+    <dialog id="thank-dialog">
+        <p>Thank you for contacting us!</p>
+    </dialog>
+
+    <dialog id="error-dialog">
+        <p>Sorry, an error has occured!</p>
+    </dialog>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="js/index.js"></script>
+    <script src="js/tabs-jquery.js"></script>
+</body>
+
+</html>
