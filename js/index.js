@@ -3,7 +3,7 @@ document.querySelectorAll('.buttons button').forEach( el => {
 });
 
 function switchTab(ev) {
-    document.querySelectorAll('.buttons button, .tabs div').forEach( el => {
+    document.querySelectorAll('.buttons nav, .tabs div').forEach( el => {
         el.classList.remove('active');
     });
     ev.target.classList.add('active');
