@@ -18,13 +18,8 @@ body {
 }
 
 .images-chapter-home {
-    display: inline-block;
-    max-width: 100px;
-    height: auto;
-    border: 1px solid #91ffc0;
-    padding: 0;
-    margin-right: 0;
-    margin-bottom: 0;
+   display: flex;
+  justify-content: center;
 }
 
 .images-chapter-about-me {
