@@ -9,7 +9,7 @@ body {
 
 .top-image {
     display: inline-block;
-    max-width: 250px;
+    max-width: 220px;
     height: auto;
     border: 1px solid #91ffc0;
     padding: 0;
@@ -28,13 +28,9 @@ body {
 }
 
 .images-chapter-about-me {
-    display: inline-block;
-    max-width: 125px;
-    height: auto;
-    border: 1px solid #91ffc0;
-    padding: 0;
-    margin-right: 0;
-    margin-bottom: 0;
+    display: flex;
+    justify-content: space-around;
+    
 }
 
 #image-chapter-links {
