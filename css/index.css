@@ -3,24 +3,16 @@ body {
     font-size: medium;
     text-align: center;
     background-color: #91ffc0;
-    width: 500px;
+    width: 720px;
     margin: 0 auto;
 }
 
-.top-image {
-    display: inline-block;
-    max-width: 220px;
-    height: auto;
-    border: 1px solid #91ffc0;
-    padding: 0;
-    margin-right: 0;
-    margin-bottom: 0;
+header {
+    background-color: #91ffc0;
 }
 
-.images-chapter-home {
-   display: flex;
-  justify-content: center;
-}
+
+
 
 .images-chapter-about-me {
     display: flex;
