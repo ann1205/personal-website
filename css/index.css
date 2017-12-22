@@ -7,17 +7,12 @@ body {
     margin: 0 auto;
 }
 
-header {
-    background-color: #91ffc0;
+.images-chapter-home{
+    width: 100%;
 }
 
-
-
-
-.images-chapter-about-me {
-    display: flex;
-    justify-content: space-around;
-    
+.images-chapter-about-me{
+    width: 100%;
 }
 
 #image-chapter-links {
@@ -32,7 +27,7 @@ header {
 
 #image-map {
     display: inline-block;
-    max-width: 500px;
+    max-width: 750px;
     height: auto;
     border: 1px solid #91ffc0;
     padding: 0;
