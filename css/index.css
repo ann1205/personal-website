@@ -1,14 +1,14 @@
+
 body {
     font-family: 'Cookie', cursive;
-    font-size: medium;
+    font-size: larger;
     text-align: center;
     background-color: #91ffc0;
-    width: 720px;
     margin: 0 auto;
-}
+  }
 
 .images-chapter-home{
-    width: 100%;
+      width: 100%;
 }
 
 .images-chapter-about-me{
@@ -24,13 +24,12 @@ body {
     margin-right: 0;
     margin-bottom: 0;
 }
+footer {
+   background-color: white; 
+}
 
-#image-map {
-    display: inline-block;
-    max-width: 750px;
-    height: auto;
-    border: 1px solid #91ffc0;
-    padding: 0;
-    margin-right: 0;
-    margin-bottom: 0;
+@media (min-width: 400px) {
+body {
+    max-width: 720px;
+}
 }
