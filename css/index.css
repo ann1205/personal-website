@@ -1,9 +1,9 @@
 
 body {
-    font-family: 'Cookie', cursive;
-    font-size: larger;
+    font-family: 'Quattrocento', serif;
+    font-size: medium;
     text-align: center;
-    background-color: #91ffc0;
+    background-color: #efebdc;
     margin: 0 auto;
   }
 
@@ -15,21 +15,37 @@ body {
     width: 100%;
 }
 
-#image-chapter-links {
+.image-chapter-links {
     display: inline-block;
-    max-width: 50px;
-    height: auto;
-    border: 1px solid #91ffc0;
+    text-align: center;
     padding: 0;
     margin-right: 0;
     margin-bottom: 0;
 }
 footer {
-   background-color: white; 
+   background: url('footer-background.jpg'); 
+   background-size: 100% 100%;
+   background-repeat: no-repeat;
 }
+#Contact-me {
+    padding-left: 20px;
+}
+
 
 @media (min-width: 400px) {
 body {
     max-width: 720px;
 }
+.image-chapter-links {
+    text-align: center;
+}
+#name, #email, #feedback{
+width:250px;
+height: 30px;
+/*border: 1px solid;*/
+margin-bottom: 10px
+}
+ #feedback{
+height: 90px;
+ }
 }
